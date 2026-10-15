@@ -1,3 +1,3 @@
-23d0d86441a6837795a544c0cfac571d359b79578ebd835defc27cea9dbd1b0a  Dragon-Ball-Horizons-0.1.0.mrpack
-ed4e2b42b561de18e691cb57c5b120b0fd5923e03ee67c9ae65fedd1fff86bd0  Dragon-Ball-Horizons-0.1.0-Windows.zip
-f018d179f2fb696bf35b37985ef9703e4a6c8a23b07c83670ca79cd08042ec64  dragon-ball-horizons-0.1.0.jar
+382d286cc9d660576d0bf9e2392e6937b5a2734ddd71da88365e4f74f3884d43  Dragon-Ball-Horizons-0.1.1.mrpack
+7a50fb072eb959f19afd41fa224e41c7a22a78ae18ef837659b5b89c6d82d241  Dragon-Ball-Horizons-0.1.1-Windows.zip
+97201936a6a4e906cf4d0551ed4b2593e72763cf9e1da84cc7d2dc49261ece23  dragon-ball-horizons-0.1.1.jar
