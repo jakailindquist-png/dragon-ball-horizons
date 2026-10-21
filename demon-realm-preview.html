@@ -16,7 +16,7 @@
 </head>
 <body><main>
   <p><a href="index.html">← Dragon Ball Horizons</a></p>
-  <p class="tag">Experimental local and LAN download · 0.2.0-alpha.4</p>
+  <p class="tag">Experimental local and LAN download · 0.2.0-alpha.5</p>
   <h1>Explore the Demon Realm</h1>
   <p>This separate preview combines Horizons with a locally modified build of DragonMine Z’s public GPL-3.0 2.2-alpha source. It adds the three Demon Worlds, the Daima saga, Tamagami 1–3, Gomah, and new Janemba, Turles and Metal Cooler Core world bosses. The stable 0.1.2 pack remains available on the <a href="index.html#play">main download page</a>.</p>
   <h2>What this preview adds</h2>
@@ -29,10 +29,10 @@
   </ul>
   <div class="card">
     <h2>Download for single-player and LAN</h2>
-    <p><a class="button" href="https://github.com/jakailindquist-png/dragon-ball-horizons/releases/download/v0.2.0-alpha.4/Dragon-Ball-Horizons-0.2.0-alpha.4-local-lan.mrpack" download>Download local / LAN Prism pack ↓</a></p>
+    <p><a class="button" href="https://github.com/jakailindquist-png/dragon-ball-horizons/releases/download/v0.2.0-alpha.5/Dragon-Ball-Horizons-0.2.0-alpha.5-local-lan.mrpack" download>Download local / LAN Prism pack ↓</a></p>
     <p>Every friend joining needs this exact pack. The original 2.2-alpha preview has a beta access check that disconnects non-whitelisted players, even in single-player; use the local/LAN download above instead.</p>
-    <p><strong>Existing-world repairs in alpha.4:</strong> Missing saved placements for King Yemma, Baba, King Kai and other fixed Otherworld characters are restored without replacing your edits. Missing structure characters, including Cell, Old Kai, Roshi and the tournament hosts, reappear when you visit their generated structures; existing characters are kept. Destroyed boss anchors can trigger lair repair. Native <code>/dmzquest reset</code> now waits for player data to finish loading, clears field encounters, saves the change and verifies it took effect. The host and every LAN player need the same pack.</p>
-    <p><a href="https://github.com/jakailindquist-png/dragon-ball-horizons/releases/download/v0.2.0-alpha.4/Dragon-Ball-Horizons-0.2.0-alpha.4-local-lan-READ-ME.md">Read installation and testing notes</a> · <a href="https://github.com/jakailindquist-png/dragon-ball-horizons/releases/download/v0.2.0-alpha.4/Dragon-Ball-Horizons-0.2.0-alpha.4-local-lan.sha256">Verify checksum</a></p>
+    <p><strong>Existing-world repairs in alpha.5:</strong> Yemma, Baba and King Kai now use the loaded Otherworld layout when older saves contain their old coordinates. If your world has a custom layout, stand at the intended spot and run <code>/dmznpc sethere master_enma</code> or <code>/dmznpc sethere master_baba</code> as an operator; this saves a world-specific position. Janemba resets keep the saved arena height and rebuild the procedural arena when its area loads. If a previous reset erased the anchor, the arena finds ground beyond the damaged rim. Alpha.4 structure-character and quest reset repairs remain included. The host and every LAN player need this pack.</p>
+    <p><a href="https://github.com/jakailindquist-png/dragon-ball-horizons/releases/download/v0.2.0-alpha.5/Dragon-Ball-Horizons-0.2.0-alpha.5-local-lan-READ-ME.md">Read installation and testing notes</a> · <a href="https://github.com/jakailindquist-png/dragon-ball-horizons/releases/download/v0.2.0-alpha.5/Dragon-Ball-Horizons-0.2.0-alpha.5-local-lan.sha256">Verify checksum</a></p>
   </div>
   <h2>Keep your current world safe</h2>
   <ol>
@@ -43,7 +43,7 @@
   </ol>
   <h2>Play with friends</h2>
   <p>All players import the same local/LAN pack. The host opens their world with <strong>Esc → Open to LAN</strong>; friends join using the address shown in chat. A separate dedicated server still requires upstream beta access. Live two-player LAN play has not yet been verified.</p>
-  <p>The native Space Pod unlocks the Demon Realm after Daima Saga quest 3. Time Patrollers sell maps to Tamagami lairs. Operators can use <code>/dmzworldboss locate</code> for world-boss directions.</p>
+  <p>The native Space Pod unlocks the Demon Realm after Daima Saga quest 3. Time Patrollers sell maps to Tamagami lairs. Operators can use <code>/dmzworldboss locate</code> for world-boss directions, then <code>/dmzworldboss reset janemba</code> while near the lair if it was destroyed. The arena rebuild can take a few seconds after its chunks load.</p>
   <div class="card"><strong>What has been verified:</strong> the alpha and Horizons compiled; the original fresh-world server passed 17 integration tests, including Demon Realm and seven boss registrations; the local/LAN build passed compilation and archive checks. Full Windows graphics, boss fights, existing-save migration and live LAN play have not yet been tested. This is an unofficial modified preview, not an official DragonMine Z release.</div>
   <p>DragonMine Z GPL-3.0 source: <a href="https://github.com/DragonMineZ/dragonminez/tree/7c0ef5143c1219ef611b4a61cf41599ee0c4b8b4">exact source revision</a>. The local source patch is included inside the pack. Dragon Ball Horizons is an unofficial fan project.</p>
 </main></body></html>
