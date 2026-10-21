@@ -6,6 +6,6 @@ Visit https://jakailindquist-png.github.io/dragon-ball-horizons/
 
 Stable pack: version 0.1.2. Requires Minecraft Java 1.20.1, Forge 47.4.0 and Java 17. Import the .mrpack with Prism Launcher.
 
-Experimental Demon Realm preview: version 0.2.0-alpha.3, with world-boss lair and native DMZ quest reset repairs. Download it from https://jakailindquist-png.github.io/dragon-ball-horizons/demon-realm-preview.html or the GitHub release at https://github.com/jakailindquist-png/dragon-ball-horizons/releases/tag/v0.2.0-alpha.3. Back up your world and import it as a new Prism instance; every LAN player needs the same pack.
+Experimental Demon Realm preview: version 0.2.0-alpha.4, with missing-NPC recovery for existing worlds, world-boss lair repair and persistent native DMZ quest reset. Download it from https://jakailindquist-png.github.io/dragon-ball-horizons/demon-realm-preview.html or the GitHub release at https://github.com/jakailindquist-png/dragon-ball-horizons/releases/tag/v0.2.0-alpha.4. Back up your world and import it as a new Prism instance; every LAN player needs the same pack.
 
 Unofficial fan project. See THIRD-PARTY.html for credits and VALIDATION.html for tested behavior and limitations.
